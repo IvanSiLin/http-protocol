@@ -15,7 +15,7 @@ export const server = () => {
 
   app.server.keepAliveTimeout = 5;
 
-  app.get('/', (req, res) => {
+  app.get('/hello', (req, res) => {
     res.send('You\'ve done!');
   });
 
